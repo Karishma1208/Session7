@@ -1,0 +1,42 @@
+@import "./variables";
+@import "./mixins";
+
+
+.container {
+    background-color: rgb(223, 209, 236);
+    height: 500px;
+    width: 800/2px;
+    padding: 30px;
+
+    .button-container {
+        @include flexStyle(row);
+
+        .button-base {
+            background-color: $primary-color;
+            color: $primary-text-color;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid red;
+
+            &:hover {
+                background-color: red;
+            }
+        }
+
+        .button-base-extra {
+            border: 3px solid $border-color;
+        }
+
+        .button-specific {
+            @extend .button-base, .button-base-extra;
+        }
+
+        .button-common {
+            @extend .button-base, .button-base-extra;
+        }
+    }
+}
+
+.container-bottom{
+    @extend .container;
+}

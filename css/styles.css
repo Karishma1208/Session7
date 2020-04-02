@@ -1,0 +1,54 @@
+.button-general{
+    padding: 20px;
+    background-color: #555;
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+.button-common{
+    padding: 20px;
+    background-color: #555;
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+.button-common:hover{
+    background-color: black;
+}
+
+
+/*some style - footer*/
+
+
+/*some style - table*/
+
+
+
+/*some style - header*/
+
+
+
+/*some style - carousel*/
+
+.button-new{
+    padding: 20px;
+    background-color: #555;
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text-section{
+    background-color: #555;
+    color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button-new:hover{
+    background-color: black;
+}
+
+.button-general:hover{
+    background-color: black;
+}

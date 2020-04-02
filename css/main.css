@@ -1,0 +1,33 @@
+.container, .container-bottom {
+  background-color: #dfd1ec;
+  height: 500px;
+  width: 800/2px;
+  padding: 30px;
+}
+
+.container .button-container, .container-bottom .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .button-container .button-base, .container-bottom .button-container .button-base, .container .button-container .button-specific, .container-bottom .button-container .button-specific, .container .button-container .button-common, .container-bottom .button-container .button-common {
+  background-color: #777;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.container .button-container .button-base:hover, .container-bottom .button-container .button-base:hover, .container .button-container .button-specific:hover, .container-bottom .button-container .button-specific:hover, .container .button-container .button-common:hover, .container-bottom .button-container .button-common:hover {
+  background-color: red;
+}
+
+.container .button-container .button-base-extra, .container-bottom .button-container .button-base-extra, .container .button-container .button-specific, .container-bottom .button-container .button-specific, .container .button-container .button-common, .container-bottom .button-container .button-common {
+  border: 3px solid black;
+}
+/*# sourceMappingURL=main.css.map */
